@@ -8,7 +8,7 @@
     <title>Pizza4Pic</title>
     <style>
         h1 {
-            font-size: 6em;
+            font-size: 3em;
             color: white;
             margin-top: 0.5em;
         }
@@ -31,9 +31,8 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="pies.html">Pizzas</a></li>
-                <li><a href="contact.html">Contact</a></li>
                 <li><a href="Sides&Drinks.html">Sides & Drinks</a></li>
-                
+                <li><a href="contact.html">Contact</a></li>               
             </ul> 
         </nav>
     </header>
@@ -43,21 +42,44 @@
             <img src="images/" class="banner" alt="Pizza4Pic Shop">
             <h1>Welcome to the Pizza4Pic Online Store!</h1>
             <p class="sub-title">
-                Here you will find our vast menu ranging from Margherita to BBQ pizzas, grab a box for a delicious cinema experience. Select one of our 15 options and enjoy a sides and drink!
+                Here you will find our vast menu ranging from Margherita to BBQ pizzas, grab a box for a delicious cinema experience. Select one of our 15 options and enjoy a <a href ="sides&drinks.html">Sides & Drink!</a>
                 Take a moment to 
                 <a href="pies.html">browse our pizzas</a>
                 and see which of our delectable desserts you want to devour. 
                 Grab a pizza box meal for the perfect cinema snack!
             </p>
+            <h1>  ______________________________________________________________  </h1>
+            <h1>About us</h1>
+            <p class="sub-title">A new and upcoming online Pizza store which caters to the Cinema Lovers! Watch your favourite movies with your delicious pizzas and sides and choose from our varying sizes of pizzas!
+            The Pizza4Pic is new and upcoming concept which will revolutionize the cinema going experience. </p>
         </article>
+
+        <div class="Sides">
+            <div class="card" id="item21">
+            <img src="images/3d glasses.jpg" alt="3D Glasses" />
+                <div class="title">3D Glasses</div>
+                
+                <div class="price">£1.99</div>
+        <div>
+        <label for="Quantity">Size: </label>
+            <select>
+                <option>IMAX</option>
+                <option>3D</option>
+                <option>IMAX + 3D</option>
+                <option>Coloured</option>
+            </select>
+        </div>
+        <button data-order="3D Glasses" onclick="addToCart(item21)">Order</button>
+        </div>
+        </div>
     </main>
     <footer>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="pies.html">Pizzas</a></li>
-                <li><a href="contact.html">Contact</a></li>
                 <li><a href="Sides&Drinks.html">Sides & Drinks</a></li>
+                <li><a href="contact.html">Contact</a></li> 
             </ul>
         </nav>
     </footer>

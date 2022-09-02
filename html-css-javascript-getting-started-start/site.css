@@ -10,12 +10,13 @@
 }
 html, 
 body {
-height: 100%
+height: 150%
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
+
 }
 h1{
     color: white;
@@ -36,9 +37,9 @@ header {
     position:fixed;
     top: 0;
     left: 0;
-    width: 200%;
+    width: 100%;
     background-color: darkred;
-    padding: 18px;
+    padding: 5px;
     justify-content: space-between;
     align-items:center;
 }
@@ -46,7 +47,7 @@ header {
 nav a:visited, 
 nav a:link {
     color:black;
-    font-size: larger;
+    font-size: xx-large;
     font-weight:bolder;
     text-decoration: underline;
 }
@@ -59,7 +60,7 @@ nav > ul {
 nav > ul > li {
     display: inline-block;
     list-style:none;
-    margin: 0 100px 0 100px;
+    margin: 0 150px 0 100px;
 }
 
 main {
@@ -74,7 +75,16 @@ main {
 }
 
 footer {
-    padding: 15px;
+    display:block;
+    /* position:fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: darkred;
+    padding: 5px;
+    justify-content: space-between;
+    align-items:right;
+   
 }
 
 aside, 
@@ -94,12 +104,22 @@ article {
     display: block;
     text-align:left;
 }
-.Pizza > div{
+/* .Pizza > div{
     width: 180px;
     height: 100%;
-    border: 1px ;
-}
+    border: 1px ; 
+ } */
 
+.Sides{
+    width: 300px;
+    height: 100%; 
+    float:left;
+    display:flex;
+    padding: 25px;
+    margin: 10px;
+    background-color:white;
+    border: solid 10px darkred;
+}
 .columns {
     display:flex;
 }
@@ -122,29 +142,23 @@ article {
 
 
     .Pizza{
-    left: 10%;
-    display:flex ;
-    justify-content: space-between;
-    
-    /*  */
-    position: absolute;
-    width: max-content;
-    width: ;
-    height: 100%; */
-    float:;
-    padding: 25px;
-    margin: 10px;
-    background-color:white;
-    border: solid 10px darkred;
+        width: 300px;
+        height: 100%; 
+        float:left;
+        display:flex;
+        padding: 25px;
+        margin:10px;
+        background-color:white;
+        border: solid 5px darkred;
      *}
 
-.Pizza {position:relative;}
-.Pizza::before {
+/* .Pizza {position:relative;}
+.Pizza::before { */
     
     /* display:block;
     width: 100%;
     padding-top: 0%; */
-}
+/* } */
 .Pizza img {
     top: 0;
     left: 0;
@@ -161,9 +175,20 @@ article {
 }
 
 .Pizza .price {
-    /* text-align: right;
+    text-align: right;
     font-size: large;
-    font-weight: bolder; */
+    font-weight: bolder;
+}
+
+.Sides .title {
+    font-weight: bold;
+    font-size: large;
+}
+
+.Sides .price {
+    text-align: ;
+    font-size: large;
+    font-weight: bolder;
 }
 
 .Pizza .columns div {
@@ -208,7 +233,7 @@ button:hover{
 
 .card img{
     width: 100%;
-    padding: px;
+    padding: ;
 }
 
 .title{
@@ -240,3 +265,4 @@ button{
     width: ;
 
 }
+
