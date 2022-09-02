@@ -3,10 +3,10 @@
 }
 
 .banner{
-    width: 200%;
+    width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(th.jpg);
-    background-size: cover;
-    background-position: center;
+    background-size:cover;
+    background-position:center;
 }
 html, 
 body {
@@ -17,9 +17,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
 }
+h1{
+    color: white;
+    font-style: oblique;
+    font-weight: 800;
+    font-size:xx-large;
+}
  
 p {
     margin: 0.5em 0 .5em 0;
+    color: white;
+    font-size: larger;
+
 }
 
 header {
@@ -71,6 +80,7 @@ footer {
 aside, 
 article {
     padding: 4em;
+    width: 100%;
     text-align: left;
 }
 
@@ -82,17 +92,12 @@ aside {
 article {
     width: 100%;
     display: block;
-    text-align:;
+    text-align:left;
 }
 .Pizza > div{
     width: 180px;
     height: 100%;
     border: 1px ;
-}
-.Pizza{
-    float: ;
-    display: flex;
-    justify-content: space-between;
 }
 
 .columns {
@@ -117,17 +122,17 @@ article {
 
 
     .Pizza{
-        left: 10%
-        display: flex;
-        justify-content: space-between;
-    top: 50%;
-    transform: translate(-50%,-50%);
+    left: 10%;
+    display:flex ;
+    justify-content: space-between;
+    
+    /*  */
     position: absolute;
     width: max-content;
-    /* /* width: 175px;
-    height: 315px; */
-    float:left;
-    /* padding: 25px; */
+    width: ;
+    height: 100%; */
+    float:;
+    padding: 25px;
     margin: 10px;
     background-color:white;
     border: solid 10px darkred;
@@ -203,7 +208,7 @@ button:hover{
 
 .card img{
     width: 100%;
-    padding: 5px;
+    padding: px;
 }
 
 .title{
@@ -222,16 +227,16 @@ button{
 }
 
 .cart{
-    width: 500px;
-    height: 100%;
+    width: 35%;
+    height: 1000px;
     float: right;
     text-align: right;
     border: 10px solid black;
     overflow-y:scroll;
-    height: 100%px;
+    height: ;
 }
 
 .cartImg > img{
-    width: 100%;
+    width: ;
 
 }

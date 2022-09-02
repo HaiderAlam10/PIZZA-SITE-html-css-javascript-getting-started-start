@@ -30,3 +30,5 @@ function addToCart(item){
 function del(item) {
     document.getElementById(item).remove();
 }
+
+function add(price)
